@@ -11,9 +11,16 @@ function Home(){
 
                 <h1 style={{color:"#1F2235"}}>Pixour</h1>
                 <p style={{color:"#1F2235"}}>A deep learning model based on neural style transfer</p>
-                <div className="header__buttons">
+                <div className="header__buttons mb-3">
                   <a href="https://colab.research.google.com/drive/1Wi56fuiVUs8VQ6Z8sW18RP9fyhGmwKe7?usp=sharing" className="btn btn-outline" style={{color:"#1F2235"}}>
-                    Open With Colab
+                    Open Apurv's Colab
+                  </a>
+                </div>
+                <br/>
+                <br/>
+                <div className="header__buttons">
+                  <a href="https://colab.research.google.com/drive/1uN5gu2ZQhNA6KhRG2XRa31DnfYddsyh4?usp=sharing" className="btn btn-outline" style={{color:"#1F2235"}}>
+                    Open Maitrey's Colab
                   </a>
                 </div>
               </div>
