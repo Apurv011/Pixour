@@ -38,13 +38,11 @@ function Tech(){
         <div className="services__header">
           <div className="common">
             <h1 className="mainHeader">Technology Used</h1>
-
             <div className="commonBorder"></div>
           </div>
-
           <div className="row bgMain">
             {state.map((info) => (
-              <div className="col-4 bgMain">
+              <div className="col-lg-4 bgMain">
                 <div className="services__box">
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>

@@ -75,8 +75,17 @@ html{
   width: 100%;
   flex-wrap: wrap;
 }
+
 .col-6 {
   width: 50%;
+}
+
+.col-10 {
+  width: 85%;
+}
+
+.col-2 {
+  width: 15%;
 }
 
 .col-4 {
@@ -157,7 +166,7 @@ html{
 /* Servives */
 .services {
   background: #1f2235;
-  padding: 100px 0;
+  padding: 50px 0;
   color: #fff;
 }
 .center22 {
@@ -206,7 +215,7 @@ html{
 }
 
 .services__box {
-  padding: 40px;
+  padding: 50px;
   background: #23263a;
   color: #fff;
   margin: 20px;

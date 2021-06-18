@@ -7,28 +7,18 @@ function Examples(){
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">Examples</h1>
-
           <div className="commonBorder"></div>
-
         </div>
-        <div className="row">
-        <div className="center22">
-        <img src="images/stycon.jpg" alt="content_and_style_img"/>
-        </div>
-        <div className="mainContent common3" style={{color:"#ffffff",fontSize:"20px"}}>
+        <div className="mainContent col-6" style={{ color:"#ffffff",fontSize:"20px"}}>
           Content And Style Image
         </div>
-        </div>
+        <img className="col-10" src="images/stycon.jpg" alt="content_and_style_img"/>
         <br/>
         <br/>
-        <div className="row">
-        <div className="mainContent common3" style={{color:"#ffffff",fontSize:"20px"}}>
+        <div className="mainContent col-6" style={{color:"#ffffff",fontSize:"20px"}}>
           Output Image
         </div>
-        <div className="center22">
-        <img src="images/fin.jpg" alt="output_img"/>
-        </div>
-        </div>
+        <img className="col-10" src="images/fin.jpg" alt="output_img"/>
       </div>
     </div>
   );
